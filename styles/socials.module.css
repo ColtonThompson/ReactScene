@@ -1,0 +1,50 @@
+.socials
+{
+    position: absolute;
+    bottom: 0;
+    left: 55%;
+    transform: translate(70%, 0%);
+    margin:auto;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    text-shadow: rgba(49, 49, 49, 0.5) 1px 2px;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: white;
+
+    border-color: red;
+    border-style: solid;
+}
+
+.socials ul {
+    display:inline-flex;
+    list-style: none;
+    text-align: center;
+}
+
+.socials ul li {
+  display:inline-flex;
+  padding-right: 20px;
+}
+
+.socials ul li i {
+  width: 120%;
+  padding-right: 3px;
+}
+
+.socials .twitter {
+    color: #00acee;
+}
+
+.socials .youtube {
+    color: #C4302B;
+}
+
+.socials .twitch {
+    color: #6441a5;
+}
+
+.socials .tiktok {
+    color: #00f2ea;
+}
+

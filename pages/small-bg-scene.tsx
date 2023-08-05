@@ -1,20 +1,19 @@
 import Head from 'next/head';
-import Socials from '../elements/socials';
 
-import style from '../styles/bg-scene.module.css';
+import Socials from '../elements/socials';
 
 export default function Index() {
 
     return (
         <>
         <Head>
-            <title>Nightleaf Background Scene</title>
+            <title>Nightleaf Small Background Scene</title>
         </Head>
-        <body className={style.styledBody}>
-            <div className={style.tree}>
+
+        <body>
+            <div className="tree center">
             </div>
         </body>
-
         <footer>
             <Socials></Socials> 
         </footer>
